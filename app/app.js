@@ -13,8 +13,12 @@ var stupid = [{"woman": "Beyonce" , "quote": "Who runs the world? Girls."},
                 {"woman" : "Margaret Sanger" , "quote" : "No woman can call herself free who does not control her own body."}, 
                 {"woman" : "Bell Hooks" , "quote" : "If any female feels she needs anything beyond herself to legitimate and validate her existence, she is already giving away her power to be self-defining, her agency."}, 
                 {"woman" : "Dolly Parton" , "quote" : "I am not going to limit myself just because people won&rsquot accept the fact that I can do something else."}, 
-                {"woman" : "Louisa May Alcott" , "quote" : "The emerging woman will be strong-minded, strong-hearted, strong-souled, and strong-bodied…strength and beauty must go together."}];
+                {"woman" : "Louisa May Alcott" , "quote" : "The emerging woman will be strong-minded, strong-hearted, strong-souled, and strong-bodied…strength and beauty must go together."} ,
+                {"woman" : "Junie B Jones" , "quote" : "Girls can be anything guys can be!"} ,
+                {"woman" : "Margaret Thatcher" , "quote" : "If you want something said, ask a man; if you want something done, ask a woman."}]
 
+
+console.log(stupid.length);
 var rand = Math.floor(Math.random() * stupid.length);
 console.log(rand); 
 window.onload = function(){
