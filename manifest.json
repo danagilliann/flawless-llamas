@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Badass Women",
-  "description": "Badass Chics.",
+  "description": "Badass Chicks.",
   "version": "1.0",
   "background" : {
      "scripts": [ "background.js" ]
@@ -13,10 +13,10 @@
 
   "chrome_url_overrides" : {
     "newtab" : "index.html"
-  }, 
+  },
 
   "permissions": [
-   "activeTab", 
+   "activeTab",
    "tabs"
    ]
 }
